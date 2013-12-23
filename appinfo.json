@@ -1,0 +1,56 @@
+{
+    "versionLabel": "1.2.1",
+    "uuid": "5be44f1d-d262-4ea6-aa30-ddbec1e9cab2",
+    "appKeys": {
+        "biggest": 1,
+        "to": 4,
+        "alarm": 2,
+        "from": 3
+    },
+    "longName": "Morpheuz JB Sleep Monitor",
+    "versionCode": 13,
+    "capabilities": [
+        "configurable"
+    ],
+    "shortName": "Morpheuz jb",
+    "companyName": "JB",
+    "watchapp": {
+        "watchface": false
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "png",
+                "name": "IMAGE_LOGO",
+                "file": "images/logo.png"
+            },
+            {
+                "type": "png",
+                "name": "BATTERY_ICON",
+                "file": "images/battery_icon.png"
+            },
+            {
+                "type": "png",
+                "name": "BATTERY_CHARGE",
+                "file": "images/battery_charge.png"
+            },
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "IMAGE_ICON",
+                "file": "images/icon.png"
+            },
+            {
+                "type": "png",
+                "name": "ALARM_ICON",
+                "file": "images/alarm-icon.png"
+            },
+            {
+                "characterRegex": "[0-9:. ]",
+                "type": "font",
+                "name": "FONT_DIGITAL_38",
+                "file": "fonts/axaxax-bd-1.ttf"
+            }
+        ]
+    }
+}
